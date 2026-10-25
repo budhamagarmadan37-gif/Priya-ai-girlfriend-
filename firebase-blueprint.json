@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "user_profiles": {
+      "title": "User Profiles",
+      "description": "Stored user names, emails, and preferences for persistence across sessions",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "User display name"
+        },
+        "email": {
+          "type": "string",
+          "description": "User email address if authenticated via Google"
+        },
+        "uid": {
+          "type": "string",
+          "description": "Firebase Auth UID or local guest ID"
+        },
+        "role": {
+          "type": "string",
+          "description": "User role, e.g. Owner or Guest"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last update"
+        }
+      },
+      "required": [
+        "name",
+        "updatedAt"
+      ]
+    },
+    "chat_messages": {
+      "title": "Chat Messages",
+      "description": "Real-time voice and text chat logs between user and Priya",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Message content"
+        },
+        "sender": {
+          "type": "string",
+          "description": "Sender role: user or priya"
+        },
+        "timestamp": {
+          "type": "string",
+          "description": "ISO timestamp string"
+        },
+        "sessionId": {
+          "type": "string",
+          "description": "Unique chat session ID"
+        }
+      },
+      "required": [
+        "text",
+        "sender",
+        "timestamp"
+      ]
+    },
+    "user_settings": {
+      "title": "User Settings",
+      "description": "User preferences and companion customization",
+      "properties": {
+        "fitMode": {
+          "type": "string",
+          "description": "Avatar video fit mode (contain or cover)"
+        },
+        "voiceStyle": {
+          "type": "string",
+          "description": "Companion personality or voice style setting"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp string"
+        }
+      },
+      "required": [
+        "updatedAt"
+      ]
+    }
+  }
+}

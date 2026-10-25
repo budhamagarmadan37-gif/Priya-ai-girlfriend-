@@ -1,0 +1,47 @@
+========================================================================
+             HOW TO ADD YOUR CUSTOM ANIME CHARACTER VIDEOS TO PRIYA
+========================================================================
+
+Since you have generated or uploaded 3 awesome videos of your custom character,
+you can easily add them to the Priya AI Companion app!
+
+Follow these simple steps to make your character come to life in the live preview:
+
+------------------------------------------------------------------------
+STEP 1: Locate the 3 Video Files
+------------------------------------------------------------------------
+Find the three video files you generated/uploaded:
+1. One for the Idle/Sleeping state (Priya waiting, blinking or breathing).
+2. One for the Thinking state (Priya looking thoughtful or nodding).
+3. One for the Speaking state (Priya talking and gesturing).
+
+------------------------------------------------------------------------
+STEP 2: Rename the Files
+------------------------------------------------------------------------
+Rename your 3 video files EXACTLY as follows (all lowercase, no spaces):
+- Rename the idle video to:       priya_idle.mp4
+- Rename the thinking video to:   priya_thinking.mp4
+- Rename the talking video to:    priya_talking.mp4
+
+------------------------------------------------------------------------
+STEP 3: Upload the Files to the "public" Folder
+------------------------------------------------------------------------
+1. In the file explorer on the left sidebar of Google AI Studio, look for 
+   the folder named "public".
+2. Click on the "public" folder.
+3. Click the Upload button (or drag and drop your three renamed files) 
+   directly into the "public" folder.
+4. Verify that the files are now placed inside the public directory:
+   - public/priya_idle.mp4
+   - public/priya_thinking.mp4
+   - public/priya_talking.mp4
+
+------------------------------------------------------------------------
+STEP 4: Turn On and Enjoy!
+------------------------------------------------------------------------
+Once the files are uploaded, refresh the application preview or click the 
+Power button to wake up Priya. She will load your custom videos and start 
+talking, thinking, and interacting with you in real-time with her lively, 
+intelligent, and flirty personality!
+
+========================================================================

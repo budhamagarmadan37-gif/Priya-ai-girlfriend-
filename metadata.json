@@ -1,0 +1,12 @@
+{
+  "name": "Remix Priya: Sassy Voice Assistant",
+  "description": "A witty, voice-only AI companion with a playful personality and real-time audio interaction using Gemini Live technology.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
